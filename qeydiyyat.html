@@ -26,7 +26,7 @@
                 <div class="navbar-nav d-flex w-100 justify-content-center align-items-center">
                   <a class="nav-link me-lg-5 text-center underline" aria-current="page" href="index.html" style="color: #565656;">Ana səhifə</a>
                   <a class="nav-link me-lg-5 underline" style="color: #565656; font-weight:500" href="sinaqlar.html">Sınaqlar</a>
-                  <a class="nav-link me-lg-5 underline" style="color: #565656; font-weight:500" href="#">Mükafatlar</a>
+                  <a class="nav-link me-lg-5 underline" style="color: #565656; font-weight:500" href="mukafatlar.html">Mükafatlar</a>
                   <a class="nav-link me-lg-5 underline" style="color: #565656; font-weight:500" href="#">Bloq</a>
                   <a class="nav-link me-lg-5 underline" style="color: #565656; font-weight:500" href="#">Əlaqə</a>
 
@@ -51,54 +51,74 @@
    
    
     <section>
-    <div class="container">
-        <br><br>
+      <div class="container">
+          <br><br>
+              
+                  <h1 class="mt-5 text-center text-white" style="font-weight: 600;">Daxil ol</h1>
+                  <hr class="m-auto bg-white">
+              
+          
+          
+          
+          <div id="reg_form" class="card bg-light mt-4 rounded-5 w-auto m-auto">
+          
+              
+              <div class="d-flex justify-content-center mt-4">
+                <a class="logo_modal mb-3 text-center" href="index.html">Sınaqlar.com</a>  
+              </div>
             
-                <h1 class="mt-5 text-center text-white" style="font-weight: 600;">Qeydiyyat</h1>
-                <hr class="m-auto bg-white">
             
-        
-        
-        
-        <div id="reg_form" class="card bg-light mt-3 rounded-5 w-auto m-auto">
-        <article class="card-body mx-auto" style="max-width: 400px;">
-            
-            
-            <p>
-                <a href="" class="btn btn-dark btn-google w-100 mb-3 mt-2"> <img src="/assets/logos/log_reg/google.svg" alt="">   Google ilə daxil ol</a>
-                <a href="" class="btn btn-dark btn-twitter w-100 mb-3"> <img src="/assets/logos/log_reg/twitter.svg" alt="">   Twitter ilə daxil ol</a>
-                <a href="" class="btn btn-dark btn-facebook w-100"> <img src="/assets/logos/log_reg/facebook.svg" alt="">   Facebook ilə daxil ol</a>
-            </p>
-            <p class="divider-text">
-                <span class="bg-light">VƏYA</span>
-            </p>
-            <form>
+                  <div class="container-fluid d-flex align-items-center justify-content-center">
+  
+                    
+                  
+                    
+                      <a href="" class="btn btn-dark btn-twitter me-4 " style="padding: 10px; border: none;"> <img src="/assets/logos/log_reg/twitter.svg" alt="">   </a>
+                  
+  
+                      <a href="" class="btn btn-dark btn-google me-4" style="padding: 10px;"> <img src="/assets/logos/log_reg/google.svg" alt="">   </a>
+  
+  
+                      <a href="" class="btn btn-dark btn-facebook " style="padding: 10px; border: none;"> <img src="/assets/logos/log_reg/facebook.svg" alt="">   </a>
+                  </div>
+                      
+                  
+                  
+                  
+                  
+              
+              <p class="divider-text">
+                  <span class="bg-light">VƏYA</span>
+              </p>
+              <form>
+  
             <div class="form-group input-group mb-3">
                 
                  
-                <input name="ad" class="form-control" placeholder="&nbsp; Ad soyad" type="text" style="padding-left: 35px; background: url(assets/logos/log_reg/ad_soyad.svg) no-repeat scroll 6px 6px; background-color: #E3FFF3;">
+                <input name="ad" class="form-control melumat_input shadow-none ms-5 me-5 mb-2" placeholder="&nbsp; Ad soyad" type="text" style="padding-left: 45px; background: url(assets/logos/log_reg/ad_soyad.svg) no-repeat scroll 13px 15px; background-color: #E3FFF3;">
             </div> <!-- form-group// -->
 
             <div class="form-group input-group mb-3">
                 
-                <input name="" class="form-control" placeholder="&nbsp; Email" type="email" style="padding-left: 35px; background: url(assets/logos/log_reg/mail.svg) no-repeat scroll 6px 6px; background-color: #E3FFF3;">
+                <input name="" class="form-control melumat_input shadow-none ms-5 me-5 mb-2" placeholder="&nbsp; Email" type="email" style="padding-left: 45px; background: url(assets/logos/log_reg/mail.svg) no-repeat scroll 13px 19px; background-color: #E3FFF3;">
             </div> <!-- form-group// -->
             
             <div class="form-group input-group mb-3">
                 
-                <input class="form-control" placeholder="&nbsp; Şifrə" type="password" style="padding-left: 35px; background: url(assets/logos/log_reg/sifre.svg) no-repeat scroll 7px 3px; background-color: #E3FFF3;">
+                <input class="form-control melumat_input shadow-none ms-5 me-5 mb-2" placeholder="&nbsp; Şifrə" type="password" style="padding-left: 45px; background: url(assets/logos/log_reg/sifre.svg) no-repeat scroll 13px 13px; background-color: #E3FFF3;">
             </div> <!-- form-group// -->
 
             <div class="form-group input-group mb-3">
                 
-                <input class="form-control" placeholder="&nbsp; Şifrəni təsdiqlə" type="password" style="padding-left: 35px; background: url(assets/logos/log_reg/sifre.svg) no-repeat scroll 7px 3px; background-color: #E3FFF3;">
+                <input class="form-control melumat_input shadow-none ms-5 me-5 mb-2" placeholder="&nbsp; Şifrəni təsdiqlə" type="password" style="padding-left: 45px; background: url(assets/logos/log_reg/sifre.svg) no-repeat scroll 13px 13px; background-color: #E3FFF3;">
             </div> <!-- form-group// -->                                      
             <div class="form-group d-flex justify-content-center mb-2">
-                <button type="submit" class="btn btn-block text-white" style="background: #48D597;"> Qeydiyyatdan keç  </button>
+                <button type="submit" class="btn btn-block text-white" style="background: #48D597; width: 262px;
+                height: 52px; font-size: 20px; font-weight: 600;"> Qeydiyyatdan keç  </button>
             </div> <!-- form-group// -->      
             <p class="text-center">Hesabınız var? <a href="daxilol.html" style="color: #48D597;">Daxil ol</a> </p>                                                                 
         </form>
-        </article>
+        
         </div> <!-- card.// -->
         
         </div> 
@@ -196,7 +216,7 @@
             <a href="sinaqlar.html" class="text-reset">Sınaqlar</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Mükafatlar</a>
+            <a href="mukafatlar.html" class="text-reset">Mükafatlar</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Bloq</a>
