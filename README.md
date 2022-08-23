@@ -8,3 +8,4 @@ And it's getting bigger and bigger.
 
 
 NOTE: CSS and other materials will be added soon
+JS and animations will be added last
