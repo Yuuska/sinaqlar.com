@@ -7,5 +7,5 @@ It's really a snowball site where I can add almost any type of quiz here as it's
 And it's getting bigger and bigger.
 
 
-NOTE: CSS and other materials will be added soon
+NOTE: CSS and other materials will be added soon.
 JS and animations will be added last
