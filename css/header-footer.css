@@ -1,0 +1,119 @@
+#logo{
+    
+    width: 170px;
+    height: 50px;
+    left: 133px;
+    top: 10px;
+
+    background: #48D597;
+    border-radius: 8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sinaq_navbar{
+    box-shadow: 0px 4px 16px -2px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+}
+
+#btn_daxil{
+    width: 80px;
+    height: 50px;
+    left: 1040px;
+    top: 10px;
+    
+    background: #FFFFFF;
+    border: 2px solid #48D597;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #48D597;
+}
+
+#btn_daxil:hover{
+    background: #48D597;
+    color: white;
+}
+
+#btn_qeydiyyat{
+    width: 105px;
+    height: 50px;
+    left: 1128px;
+    top: 10px;
+
+    background: #48D597;
+    border-radius: 8px;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    border:none
+
+}
+
+#btn_qeydiyyat:hover{
+    background: #FFFFFF;
+    color: #48D597;
+    border: #48D597 2px solid;
+}
+
+/* HERE NAVBAR EFFECTS START ---------------------------------------*/
+
+.underline{
+    position: relative;
+  }
+  
+  .underline::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #48D597;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .underline:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }
+
+.you_link{
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+}
+.you_link:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+/* HERE NAVBAR EFFECTS END ------------------------------------------*/
