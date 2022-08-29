@@ -68,3 +68,75 @@ input:focus{
     background-color: white!important;
     border: 2px solid #48D597!important;
 }
+
+/* DAXIL OL -----------------------------------------------------------------------*/
+
+#rememberMe{
+    border-radius: 50%;
+    cursor: pointer;
+    height: 18px;
+    
+    
+    width: 20px;
+    
+}
+
+
+
+
+/* DAXIL OL -----------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+    #reg_form{
+        width: 70%!important;
+    }
+    }
+
+@media (min-width: 992px) {
+    #reg_form{
+        width: 50%!important;
+    }
+    }
+
+@media (min-width: 1200px) {
+    #reg_form{
+        width: 50%!important;
+    }
+    }
+
+
+.logo_modal{
+    
+    
+        width: 218px;
+        height: 64px;
+        
+        padding-top: 12px;
+    
+        background: #FFFFFF;
+        border: 2px solid #48D597;
+        border-radius: 10px;
+        
+        font-weight: 650;
+        font-size: 24px;
+        
+        /* identical to box height */
+
+        text-decoration: none;
+        color: #48D597!important;
+
+    
+}
+
+
+.melumat_input{
+    width: 500px;
+    height: 60px;
+}
+
+
+
+input:focus{
+    color:  #40AD7D!important;
+    
+}
