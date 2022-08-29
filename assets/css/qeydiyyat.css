@@ -1,0 +1,70 @@
+body{
+    background: #48D597;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 84%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 8%;
+    z-index: 1;
+}
+
+.btn-facebook {
+    width: 50px!important;
+    height: 50px!important;
+    background-color: #1b74e4;
+    color: #fff;
+}
+.btn-twitter {
+    width: 50px!important;
+    height: 50px!important;
+    background-color: #42AEEC;
+    color: #fff;
+}
+.btn-google {
+
+    width: 50px!important;
+    height: 50px!important;
+    background-color: white;
+    color: gray;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+h1 + hr{
+    width: 117px;
+    height: 4px;
+
+    background: #48D597;
+    border: none;
+    opacity: 0.9;
+}
+
+input:focus{
+    background-color: white!important;
+    border: 2px solid #48D597!important;
+}
